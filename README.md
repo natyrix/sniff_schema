@@ -24,7 +24,9 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
+## Folders
+1. data/ (Locate all input JSON files here)
+2. schema/ (Output folder for generated schemas)
 
 # Sniffer (scripts/sniffer)
 
