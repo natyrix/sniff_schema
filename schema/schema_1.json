@@ -1,0 +1,8 @@
+{
+    "participantIds": {
+        "type": "enum",
+        "tag": "",
+        "description": "",
+        "required": false
+    }
+}
