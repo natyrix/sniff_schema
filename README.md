@@ -1,4 +1,32 @@
-# Sniffer
+## Installation
+
+1. Clone the repository:
+   
+```bash
+git clone https://github.com/natyrix/sniff_schema.git
+cd sniff_schema
+```
+2. Set up virtual environment (optional but recommended):
+
+```bash
+# go to the service folder
+cd ad_service
+python -m venv env
+source sniff_schema/env/bin/activate   # On Windows: venv\Scripts\activate
+```
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+```bash
+python main.py
+```
+
+
+# Sniffer (scripts/sniffer)
 
 The `Sniffer` class provides functionality for sniffing JSON data and generating corresponding schemas.
 
